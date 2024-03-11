@@ -1,0 +1,13 @@
+.container_profile{
+    flex-direction: column;
+    min-width: 410px;
+}
+
+@media screen and (max-width:655px){
+    .container_profile{
+        min-width: 260px;
+        justify-content: start;
+        max-height: max-content;
+        margin: 70px 0 0;
+    }
+}

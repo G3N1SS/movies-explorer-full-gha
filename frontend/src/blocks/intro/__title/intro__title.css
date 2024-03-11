@@ -1,0 +1,28 @@
+.intro__title{
+  grid-area: title;
+  display: inline-block;
+  max-width: 640px;
+  max-height: max-content;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  margin: 0 0 36px 0 ;
+}
+
+@media screen and (max-width:970px){
+  .intro__title{
+    margin: 0 0 22px 0;
+    font-size: 40px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (max-width:665px){
+  .intro__title{
+    margin: 0 0 24px 0;
+    font-size: 30px;
+    line-height: 125%;
+  }
+}

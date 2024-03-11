@@ -1,0 +1,11 @@
+.about__timeline-amount_backend{
+    padding: 10px 14px;
+    color: black;
+    background: #3DDC84;
+}
+
+@media screen and (max-width:665px){
+    .about__timeline-amount_backend{
+        padding: 10px 11px;
+    }
+}

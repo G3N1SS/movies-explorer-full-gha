@@ -1,0 +1,12 @@
+.search-bar__box{
+    display: flex;
+    border-bottom: 1px solid #424242;
+    margin: 0 14px 32px 14px;
+    padding-bottom: 13px;
+}
+
+@media screen and (max-width:665px){
+    .search-bar__box{
+        padding-bottom: 9px;
+    }
+}

@@ -1,0 +1,19 @@
+.about{
+  background: #202020;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 110px 70px;
+}
+
+@media screen and (max-width:970px){
+  .about{
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width:665px){
+  .about{
+    padding: 70px 18px;
+  }
+}

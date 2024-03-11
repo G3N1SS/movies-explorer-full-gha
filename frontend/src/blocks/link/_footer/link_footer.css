@@ -1,0 +1,27 @@
+.link_footer:hover{
+    transition: all .4s;
+    opacity: 0.8;
+}
+
+.link_footer::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    left: 0%;
+    margin: 0;
+    opacity: 0;
+    width: 2%;
+    height: 1px;
+    transition: all .8s;
+    background-color: white;
+}
+
+.link_footer:hover::after{
+    content: "";
+    width: 100%;
+    background-color: white;
+    height: 1px;
+    margin: 0;
+    opacity: 0.45;
+    transition: all .6s;
+}
