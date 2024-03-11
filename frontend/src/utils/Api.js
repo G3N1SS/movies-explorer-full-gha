@@ -103,7 +103,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'https://api.g3n1sdiploma.nomoredomainsmonster.ru'
+  baseUrl: 'http://localhost:3000'
 })
 
 export default api
