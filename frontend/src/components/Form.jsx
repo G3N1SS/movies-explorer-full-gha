@@ -51,7 +51,7 @@ export default  function Form({name, titleButton, children, onSubmit, setIsError
       <>
       {isEdit ? 
       <>
-        <span className={`profile__error-request ${isError ? 'profile__error-request_type_error' : isSuccess && 'profile__error-request'}`}></span>
+        <span className={`profile__error ${isError ? 'error' : isSuccess && 'profile__error'}`}></span>
         <button className="profile__submit" type="submit">
           {titleButton}
         </button>
