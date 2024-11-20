@@ -103,7 +103,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'https://api.g3n1sdiploma.nomoredomainsmonster.ru'
+  baseUrl: 'https://api.movie.explorer.nomoredomainsmonster.ru'
 })
 
 export default api
