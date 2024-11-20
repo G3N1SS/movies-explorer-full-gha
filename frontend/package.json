@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "vite build && scp -r ./dist/* areg@84.252.133.28:/home/areg/movies-explorer-full-gha/frontend"
+    "deploy": "vite build && scp -r ./dist/* areg@84.252.133.28:/home/areg/"
   },
   "dependencies": {
     "react": "^18.2.0",
