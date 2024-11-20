@@ -1,0 +1,24 @@
+.search-bar__shortfilms-box{
+    display: flex;
+    align-items: start;
+    margin-bottom: 147px;
+}
+
+@media screen and (max-width:970px){
+    .search-bar__shortfilms-box{
+        justify-content:end;
+        flex-direction: row-reverse;
+        gap:16px;
+        margin-bottom: 130px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .search-bar__shortfilms-box{
+        justify-content:center;
+        flex-direction: row-reverse;
+        gap:16px;
+        margin-bottom:90px;
+        align-items: center;
+    }
+}

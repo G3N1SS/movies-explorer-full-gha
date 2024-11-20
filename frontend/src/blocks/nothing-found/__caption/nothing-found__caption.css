@@ -1,0 +1,13 @@
+.nothing-found__caption{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0 0
+}
+@media screen and (max-width:665px){
+    .nothing-found__caption{
+        text-align: center;
+        font-size: 12px;
+        /* margin: 0 0 284px; */
+    }
+}

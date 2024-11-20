@@ -1,0 +1,9 @@
+.hamburger-menu__link_active{
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.hamburger-menu__link_active::after{
+    content: '';
+    display: none;
+}

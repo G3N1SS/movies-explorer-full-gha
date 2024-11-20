@@ -1,0 +1,15 @@
+.search-bar__box{
+    display: flex;
+    border-bottom: 1px solid #424242;
+    margin: 0 0 10px 0;
+    padding-bottom: 13px;
+    width: 89vw;
+    max-width: 1140px;
+}
+
+@media screen and (max-width:665px){
+    .search-bar__box{
+        padding-bottom: 9px;
+        margin: 0 auto 10px;
+    }
+}

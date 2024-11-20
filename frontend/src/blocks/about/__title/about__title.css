@@ -1,0 +1,13 @@
+.about__title{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.88px;
+    margin: 0 0 23px 0;
+    min-height: 27px;
+}
+
+@media screen and (max-width:665px){
+    .about__title{
+        font-size: 18px;
+    }
+}

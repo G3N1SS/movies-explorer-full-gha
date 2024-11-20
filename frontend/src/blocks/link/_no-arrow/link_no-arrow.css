@@ -1,0 +1,21 @@
+.link_no-arrow:hover{
+    transition: all .4s;
+    opacity: 0.8;
+}
+
+.link_no-arrow::after{
+    content: '?';
+    margin: 0 15px ;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.link_no-arrow:hover::after{
+    content: '?';
+    margin: 0 15px ;
+    display: inline-block;
+    transition: all .4s;
+    opacity: 1;
+}
+
+

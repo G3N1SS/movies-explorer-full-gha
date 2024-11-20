@@ -1,0 +1,12 @@
+.intro__image{
+    max-width: 310px;
+    max-height: 304px;
+    animation: appearingRight 1.4s ease-in-out;
+}
+
+@media screen and (max-width:665px){
+    .intro__image{
+        max-height: 210px;
+        max-height: 206px;
+    }
+}

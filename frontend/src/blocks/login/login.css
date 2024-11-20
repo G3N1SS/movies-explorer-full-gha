@@ -1,0 +1,20 @@
+.login{
+  background-color: #202020;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:970px){
+  .login{
+    padding: 0;
+    align-items:center;
+  }
+}
+
+@media screen and (max-width:665px){
+  .login{
+    align-items:start;
+  }
+}

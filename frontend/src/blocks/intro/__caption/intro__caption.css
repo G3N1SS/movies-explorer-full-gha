@@ -1,0 +1,22 @@
+.intro__caption{
+    grid-area: caption;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 300px;
+    opacity: 0.5;
+    margin: 0 0 146px;
+}
+
+@media screen and (max-width:970px){
+  .intro__caption{
+    margin: 0 0 92px 0;
+    max-width: 260px;
+  }
+}
+
+@media screen and (max-width:665px){
+  .intro__caption{
+    margin: 0 0 80px 0;
+  }
+}

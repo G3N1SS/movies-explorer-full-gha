@@ -1,0 +1,18 @@
+.login__logo{
+  width:38px;
+  height: 38px;
+  margin-bottom: 40px;
+  transition: .2s all;
+  animation: appearing 1.2s ease-in-out;
+}
+
+.login__logo:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:665px){
+  .login__logo{
+    margin: 0 auto 50px;
+  }
+}

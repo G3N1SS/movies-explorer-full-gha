@@ -1,0 +1,9 @@
+.about__info-title{
+    display: inline-block;
+    max-width: max-content;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    margin: 0 0 26px 0;
+    min-height: 24px;
+}

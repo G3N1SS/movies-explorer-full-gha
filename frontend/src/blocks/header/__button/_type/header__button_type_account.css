@@ -1,0 +1,5 @@
+@media screen and (max-width:970px){
+    .header__button_type_account{
+        display: none;
+    }
+}

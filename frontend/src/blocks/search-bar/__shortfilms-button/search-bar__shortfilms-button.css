@@ -1,0 +1,17 @@
+.search-bar__shortfilms-button{
+    border:none;
+    background-color: transparent;
+    background-image: url(../../../images/button.png);
+    width: 36px;
+    height: 20px;
+    padding: 0;
+    transition: all .3s;
+    margin: 0 14px 0 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width:970px){
+    .search-bar__shortfilms-button{
+        margin: 0;
+    }
+}

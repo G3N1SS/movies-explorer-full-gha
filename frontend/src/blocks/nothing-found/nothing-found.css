@@ -1,0 +1,8 @@
+.nothing-found{
+  background: #202020;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  flex-direction: column;
+}

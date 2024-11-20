@@ -1,0 +1,5 @@
+.header__button_active{
+  transition: all .3s;
+  transform: translateY(-2px);
+  opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+.profile__input-box{
+    border-bottom: 1px solid #424242;
+    display: grid;
+    grid-template-areas: "name input"
+                         "error .";
+    justify-content: space-between;
+    padding-bottom: 4px;
+    width: 410px
+}
+
+.profile__input-box:last-of-type{
+    border:none;
+    margin-bottom: 212px;
+    padding: 16px 0 0 0;
+}
+
+@media screen and (max-width:970px){
+    .profile__input-box:last-of-type{
+        margin-bottom: 198px;
+    }
+}
+
+@media screen and (max-width:665px){
+    .profile__input-box:last-of-type{
+        margin-bottom: 45vh;
+        padding: 16px 0 0 0;
+    }
+    .profile__input-box{
+        width: 260px;
+    }
+}

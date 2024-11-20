@@ -1,0 +1,14 @@
+.card__save{
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.card__save:hover{
+    transform: scale(1.05);
+}

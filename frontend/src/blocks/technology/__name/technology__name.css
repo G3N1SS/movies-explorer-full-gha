@@ -1,0 +1,30 @@
+.technology__name{
+    border-radius: 10px;
+    background: #303030;
+    width: 90px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.56px;
+    transition: all .5s;
+}
+
+.technology__name:hover{
+    animation: bottomToUp 1s ease;
+    background:#3DDC84;
+    transition: all 1s;
+    transform: translateY(-7%);
+    box-shadow: 0  4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:970px){
+    .technology__name{
+        width: 84px;
+        height: 57px;
+        font-size: 12px;
+    }
+}

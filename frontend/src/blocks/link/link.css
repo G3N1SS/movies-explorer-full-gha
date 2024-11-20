@@ -1,0 +1,39 @@
+.link{
+    transition: all .2s;
+}
+
+.link:hover{
+    transition: all .2s;
+    opacity: 0.8;
+}
+
+.link:hover::after{
+    content:"→";
+    margin: 0 0 0 15px;
+    opacity: 0.8;
+    transition: all .2s;
+}
+
+.link::after{
+    content:"→";
+    margin: 0 0 0 5px;
+    opacity: 0;
+    transition: all .2s;
+}
+
+@media screen and (max-width:665px){
+    .link:hover::after{
+        content:"→";
+        margin: 0 0 0 7px;
+        opacity: 0.8;
+        transition: all .2s;
+    }
+    
+    .link::after{
+        content:"→";
+        margin: 0;
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+

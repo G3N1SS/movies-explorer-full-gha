@@ -1,0 +1,15 @@
+.technology__title{
+  margin: 0 0 23px 0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.88px;
+}
+
+@media screen and (max-width:665px){
+  .technology__title{
+    font-size: 18px;
+    margin: 0 0 28px 0;
+  }
+}

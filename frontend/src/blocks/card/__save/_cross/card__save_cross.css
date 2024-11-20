@@ -1,0 +1,10 @@
+.card__save_cross{
+    border: none;
+    background: transparent;
+    transform: rotate(45deg);
+    color: white;
+}
+
+.card__save_cross:hover{
+    transform: rotate(45deg);
+}

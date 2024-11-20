@@ -1,0 +1,15 @@
+.technology__names{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+}
+
+@media screen and (max-width:665px){
+    .technology__names{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        
+    }
+}

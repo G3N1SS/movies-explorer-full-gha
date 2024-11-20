@@ -1,0 +1,19 @@
+.hamburger-menu{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 67.7vw;
+    background:#202020;
+    top:0;
+    right: 0;
+    z-index: 9;
+    padding: 159px 0 0 0;
+    transition: all .5s;
+    animation: appearingRight100 1s ease-in-out reverse;
+}
+
+@media screen and (max-width:550px){
+    .hamburger-menu{
+        width: 100%;
+    }
+}

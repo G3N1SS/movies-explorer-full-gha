@@ -1,0 +1,32 @@
+.profile__submit{
+    border-radius: 3px;
+    background: #4285F4;
+    padding: 15px 0;
+    border:none;
+    color: white;
+    cursor: pointer;
+    transition: all .4s;
+    box-sizing:border-box;
+    width: 100%;
+    animation: appearing .5s ease-in-out ;
+    transition: all .3s;
+    position: relative;
+}
+
+.profile__submit:hover{
+    transform: scale(1.05);
+}
+
+.profile__submit:active{
+    color: #202020;
+    background: #3DDC84;
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 665px) {
+    .profile__submit {
+        font-weight: 400;
+        font-size: 12px;
+        max-width: 260px;
+    }
+}

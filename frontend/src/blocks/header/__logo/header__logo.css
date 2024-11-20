@@ -1,0 +1,13 @@
+.header__logo{
+    transition: all .4s;
+}
+
+.header__logo:hover{
+    transform: rotate(-360deg) scale(1.1);
+    transition: all 1.2s;
+    opacity: 0.9;
+}
+
+.header__logo:active:hover{
+    transform: rotate(360deg);
+}

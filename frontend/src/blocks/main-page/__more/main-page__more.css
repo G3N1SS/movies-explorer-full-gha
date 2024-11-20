@@ -1,0 +1,31 @@
+.main-page__more{
+    border: 1px solid #424242;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    padding: 10px 147px;
+    border-radius: 6px;
+    margin: 0 auto 80px;
+    cursor: pointer;
+    transition: all .3s;
+    max-width: 320px;
+}
+
+.main-page__more:hover{
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.main-page__more:active{
+    opacity: 0.8;
+    transform: scale(0.93);
+    background-color:#fff;
+    color: black;
+}
+
+@media screen and (max-width:750px){
+    .main-page__more{
+        padding: 10px 107px;
+    }
+}

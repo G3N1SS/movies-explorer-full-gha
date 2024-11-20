@@ -1,0 +1,18 @@
+.header__button{
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
+    background-color: transparent;
+    color: white;
+    grid-area: buttons;
+    text-decoration: none;
+}
+
+@media screen and (max-width:665px){
+    .header__button{
+        font-size: 10px;
+    }
+}

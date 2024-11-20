@@ -1,0 +1,6 @@
+.profile__error_success{
+    color: #3DDC84;
+    opacity: 0;
+    margin-bottom: 30px;
+    animation: disappearing 3s;
+}

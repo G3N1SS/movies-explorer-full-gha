@@ -1,0 +1,14 @@
+.footer__title{
+    color: #8B8B8B;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+@media screen and (max-width:665px){
+    .footer__title{
+        font-size: 12px;
+    }
+}

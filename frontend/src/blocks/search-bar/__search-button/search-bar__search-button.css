@@ -1,0 +1,17 @@
+.search-bar__search-button{
+    background: #4285F4;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+    min-width: 34px;
+    min-height: 34px;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar__search-button:hover{
+    opacity: 0.9;
+}

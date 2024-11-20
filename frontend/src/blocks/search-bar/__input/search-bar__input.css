@@ -1,0 +1,20 @@
+.search-bar__input{
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 0;
+    color: #fff;
+    width: 100%;
+    transition: all .3s;
+}
+
+.search-bar__input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:750px){
+    .search-bar__input{
+        font-size: 18px;
+    }
+}

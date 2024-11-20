@@ -1,0 +1,13 @@
+.card{
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    max-width: 270px;
+    animation: appearing .8s;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:970px){
+    .card{
+        max-width: max-content;
+    }
+}

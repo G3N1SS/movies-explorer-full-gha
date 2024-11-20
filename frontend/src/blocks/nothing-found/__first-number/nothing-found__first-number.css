@@ -1,0 +1,5 @@
+.nothing-found__first-number{
+    transition: all .5s;
+    animation: jumper1 1.1s ease-in;
+    display: inline-block;
+}

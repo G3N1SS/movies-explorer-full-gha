@@ -1,0 +1,12 @@
+.login__link{
+    color: #4285F4;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 665px) {
+    .login__link {
+        font-size: 12px;
+    }
+}

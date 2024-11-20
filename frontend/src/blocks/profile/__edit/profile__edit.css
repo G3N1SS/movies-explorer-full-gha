@@ -1,0 +1,24 @@
+.profile__edit{
+    border:none;
+    background: transparent;
+    color: #FFF;
+    padding: 0;
+    margin: 0 auto 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+    animation: appearing .5s ease-in-out ;
+    font-size: 13px;
+    display: block;
+}
+
+.profile__edit:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:665px){
+    .profie__edit{
+        font-size: 12px;
+    }
+}
