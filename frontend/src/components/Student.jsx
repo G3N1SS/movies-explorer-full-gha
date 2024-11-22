@@ -1,22 +1,81 @@
 import studentimg from "../images/picture.jpg"
+import studentD from "../images/studentD.jpg"
+import studentM from "../images/studentM.jpg"
+import studentY from "../images/studentY.jpg"
+import studentG from "../images/studentG.jpg"
 import arrow from "../images/arrow.svg"
+import StudentCard from "./StudentCard"
 
 function Student(){
   return(
     <section className="student">
       <div className="container container_student">
-        <h2 className="student__title">Студент</h2>
+        <h2 className="student__title">Студенты</h2>
         <div className="underline student__underline"></div>
-        <div className="student__info">
-          <div className="student__info-about">
-            <h2 className="student__name">Арег</h2>
-            <p className="student__profession">Фронтенд-разработчик, 17 лет</p>
-            <p className="student__about">Учусь в школе в одиннадцатом классе. Готовлюсь к ЕГЭ. Увлекаюсь баскетболом и боксом. Планирую поступать в Москву на факультет веб-разработки. Кодить начал из за интереса к технологиям в целом, поэтому захотелось создавать нечто свое.</p>
-            <a href="https://github.com/G3N1SS" className="student__github link">Github</a>
-          </div>
-          <img src={studentimg} alt="studentImage" className="student__info-img" />
-        </div>
-        <div className="student__portfolio">
+        <StudentCard
+          name={'Арег'}
+          description={'52'}
+          age={'17'}
+          role={'Тим-лид'}
+          reversed={false}
+          img={studentimg}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Ярослав'}
+          description={'52'}
+          age={'18'}
+          role={'Backend разработчик'}
+          reversed={true}
+          img={studentY}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Глеб'}
+          description={'52'}
+          age={'18'}
+          role={'Frontend разработчик'}
+          reversed={false}
+          img={studentG}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Даниил'}
+          description={'52'}
+          age={'18'}
+          role={'Верстальщик'}
+          reversed={true}
+          img={studentimg}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Денис'}
+          description={'52'}
+          age={'18'}
+          role={'Дизайнер'}
+          reversed={false}
+          img={studentD}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Егор'}
+          description={'52'}
+          age={'18'}
+          role={'Дизайнер'}
+          reversed={true}
+          img={studentimg}
+          ghLink={''}
+        />
+        <StudentCard
+          name={'Мария'}
+          description={'52'}
+          age={'17'}
+          role={'PR-менеджер'}
+          reversed={false}
+          img={studentM}
+          ghLink={''}
+        />
+        {/* <div className="student__portfolio">
           <h3 className="student__portfolio-title">Портфолио</h3>
           <ul className="student__portfolio-links">
             <li className="student__portfolio-link">
@@ -32,7 +91,7 @@ function Student(){
               <a href="https://areg.nomoredomainsmonster.ru" className="student__portfolio-link-icon" target="_blank"><img src={arrow} alt="Ссылка"/></a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -6,7 +6,7 @@ function Technology(){
         <div className="underline technology__underline"></div>
         <div className="technology__about">
             <h2 className="technology__about-title">7 технологий</h2>
-            <p className="technology__caption">На курсе веб-разработки мы освоили технологии, которые применили в дипломном&nbsp;проекте.</p>
+            <p className="technology__caption">Мы освоили технологии, которые применили в дипломном&nbsp;проекте.</p>
             <ul className="technology__names">
               <li className="technology__name">HTML</li>
               <li className="technology__name">CSS</li>
