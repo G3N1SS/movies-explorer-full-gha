@@ -1,0 +1,9 @@
+.sites__card-button{
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+.sites__card-button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -22,6 +22,7 @@
 @import url(./blocks/container/_nothing-found/container_nothing-found.css);
 @import url(./blocks/container/_main-page/container_main-page.css);
 @import url(./blocks/container/_profile/container_profile.css);
+@import url(./blocks/container/_sites/container_sites.css);
 /* account */
 @import url(./blocks/account/account.css);
 @import url(./blocks/account/__caption/account__caption.css);
@@ -117,7 +118,7 @@
 @import url(./blocks/student/__title/student__title.css);
 @import url(./blocks/student/__underline/student__underline.css);
 @import url(./blocks/student/__portfolio-link-text/student__portfolio-link-text.css);
-@import url(./blocks/student/__info/_reversed/student__info_reversed.css);
+
 /* nothing-found */
 
 @import url(./blocks/nothing-found/nothing-found.css);
@@ -202,3 +203,9 @@
 @import url(./blocks/profile/__submit/_disabled/profile__submit_disabled.css);
 @import url(./blocks/profile/__error/_success/profile__error_success.css);
 @import url(./blocks/main-page/__search-error/main-page__search-error.css);
+
+@import url(./blocks/sites/sites.css);
+@import url(./blocks/sites/__title/sites__title.css);
+@import url(./blocks/sites/__list/sites__list.css);
+@import url(./blocks/sites/__card/sites__card.css);
+@import url(./blocks/sites/__card-button/sites__card-button.css);

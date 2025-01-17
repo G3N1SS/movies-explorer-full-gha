@@ -1,97 +1,39 @@
 import studentimg from "../images/picture.jpg"
-import studentD from "../images/studentD.jpg"
-import studentM from "../images/studentM.jpg"
-import studentY from "../images/studentY.jpg"
-import studentG from "../images/studentG.jpg"
 import arrow from "../images/arrow.svg"
-import StudentCard from "./StudentCard"
+import { Link } from "react-router-dom"
 
 function Student(){
   return(
     <section className="student">
       <div className="container container_student">
-        <h2 className="student__title">Студенты</h2>
+        <h2 className="student__title">Студент</h2>
         <div className="underline student__underline"></div>
-        <StudentCard
-          name={'Арег'}
-          description={'52'}
-          age={'17'}
-          role={'Тим-лид'}
-          reversed={false}
-          img={studentimg}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Ярослав'}
-          description={'52'}
-          age={'18'}
-          role={'Backend разработчик'}
-          reversed={true}
-          img={studentY}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Глеб'}
-          description={'52'}
-          age={'18'}
-          role={'Frontend разработчик'}
-          reversed={false}
-          img={studentG}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Даниил'}
-          description={'52'}
-          age={'18'}
-          role={'Верстальщик'}
-          reversed={true}
-          img={studentimg}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Денис'}
-          description={'52'}
-          age={'18'}
-          role={'Дизайнер'}
-          reversed={false}
-          img={studentD}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Егор'}
-          description={'52'}
-          age={'18'}
-          role={'Дизайнер'}
-          reversed={true}
-          img={studentimg}
-          ghLink={''}
-        />
-        <StudentCard
-          name={'Мария'}
-          description={'52'}
-          age={'17'}
-          role={'PR-менеджер'}
-          reversed={false}
-          img={studentM}
-          ghLink={''}
-        />
-        {/* <div className="student__portfolio">
+        <div className="student__info">
+          <div className="student__info-about">
+            <h2 className="student__name">Арег</h2>
+            <p className="student__profession">Фронтенд-разработчик, 18 лет</p>
+            <p className="student__about">Учусь в Тульском государственном университе на факультете программной-инженерии (разработка веб и мобильныйх приложений). Увлекаюсь баскетболом и боксом. Кодить начал из за интереса к технологиям в целом, поэтому захотелось создавать нечто свое. Сейчас же совершенствуюсь с каждым днем. Читаю, как и связанные с программированием, так и развивающие личность книги. Всегда рад новым знакомвствам!</p>
+            <a href="https://github.com/G3N1SS" className="student__github link">Github</a>
+          </div>
+          <img src={studentimg} alt="studentImage" className="student__info-img" />
+        </div>
+        <div className="student__portfolio">
           <h3 className="student__portfolio-title">Портфолио</h3>
           <ul className="student__portfolio-links">
             <li className="student__portfolio-link">
-              <a href="https://g3n1ss.github.io/how-to-learn/" className="student__portfolio-link-text link" target="_blank">Статичный сайт</a>
-              <a href="https://g3n1ss.github.io/how-to-learn/"  className="student__portfolio-link-icon" target="_blank"><img src={arrow} alt="Ссылка"/></a>
+              <Link to="/static" className="student__portfolio-link-text link">Статичные сайты</Link>
+              <Link to="/static"  className="student__portfolio-link-icon"><img src={arrow} alt="Ссылка"/></Link>
             </li>
             <li className="student__portfolio-link">
-              <a href="https://g3n1ss.github.io/russian-travel/" className="student__portfolio-link-text link" target="_blank">Адаптивный сайт</a>
-              <a href="https://g3n1ss.github.io/russian-travel/" className="student__portfolio-link-icon" target="_blank"><img src={arrow} alt="Ссылка"/></a>
+              <Link to='/adaptive' className="student__portfolio-link-text link">Адаптивные сайты</Link>
+              <Link to='/adaptive' className="student__portfolio-link-icon"><img src={arrow} alt="Ссылка"/></Link>
             </li>
             <li className="student__portfolio-link">
-              <a href="https://areg.nomoredomainsmonster.ru" className="student__portfolio-link-text link" target="_blank">Одностраничное&nbsp;приложение</a>
-              <a href="https://areg.nomoredomainsmonster.ru" className="student__portfolio-link-icon" target="_blank"><img src={arrow} alt="Ссылка"/></a>
+              <Link to='/multipage' className="student__portfolio-link-text link">Многостратичные и функциональные сайты</Link>
+              <Link to='/multipage' className="student__portfolio-link-icon"><img src={arrow} alt="Ссылка"/></Link>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </section>
   )

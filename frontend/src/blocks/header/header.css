@@ -4,6 +4,7 @@
     padding: 18px 20px;
     background-color: #073042;
     position: relative;
+    height: max-content;
 }
 
 @media screen and (max-width: 970px){
