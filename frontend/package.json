@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "net-deploy": "vite build && scp -r ./dist/* diploma@178.154.202.172:/home/diploma/frontend",
+    "net-deploy": "vite build && scp -r ./dist/* areg@158.160.158.193:/home/areg/frontend",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
